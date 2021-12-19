@@ -15,5 +15,39 @@ body{
   margin: 2rem auto;
   padding: 2rem;
   border-radius: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  overflow: auto;
+}
+.container .profile{
+  border-right: 1px solid rgb(90, 84, 84);
+}
+.container .profile .header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container .profile .header img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+}
+.container .profile .header p{
+  font-size: 3rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.container .profile .header span{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.container .profile .contatos{
+  margin: 7rem auto -2rem;
+  padding: 1rem;
+}
+.container .conteudo{
   overflow-y: auto;
 }
