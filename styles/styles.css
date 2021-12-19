@@ -6,62 +6,14 @@
   box-sizing: border-box;
 }
 body{
-  background: #010409;
+  background: #10916a;
 }
 .container{
-  background: #161b22;
+  background: #111827;
   width: 95%;
   height: 35rem;
   margin: 2rem auto;
   padding: 2rem;
   border-radius: 1.2rem;
   overflow-y: auto;
-}
-.container header{
-  background-image: url("./img/backgroun_Gif.gif");
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.container header .user{
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-.container header .user img{
-  width: 15rem;
-  height: 15rem;
-  border-radius: 100%;
-}
-.container header .user .leftcolumn{
-  width: 100%;
-  border-bottom: 1px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 1rem 0 0;
-}
-.container header .user p{
-  margin-left: 1rem;
-  color: #fff;
-  font-size: 30pt;
-  font-family: 'Poppins', sans-serif;
-}
-.container header .user p span{
-  font-size: 0.9rem;
-  font-family: 'Poppins', sans-serif;
-}
-.container header .user .leftcolumn .links ul{
-  display: flex;
-  align-items: center;
-}
-.container header .user .leftcolumn .links ul li{
-  padding: 0.3rem;
-  list-style: none;
-
-}
-.container header .user .leftcolumn .links ul li a{
-  color: #fff;
-  font-size: 1.4rem;
-  text-decoration: none;
 }
